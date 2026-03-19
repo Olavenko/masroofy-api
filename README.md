@@ -42,6 +42,6 @@ Currently, the primary domain models defined are:
 - ✅ Core project set up
 - ✅ `Expense` entity created
 - ✅ Entity Framework Core & SQL Server packages installed
-- 🔲 Database context and migrations setup
+- ✅ Database context and migrations setup
 - 🔲 Minimal API endpoints
 - 🔲 Identity & JWT Authentication
