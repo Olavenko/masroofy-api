@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Masroofy.Api/Masroofy.Api.csproj" />
+    <Project Path="src/Masroofy.Core/Masroofy.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Masroofy.Tests/Masroofy.Tests.csproj" />
+  </Folder>
+</Solution>
