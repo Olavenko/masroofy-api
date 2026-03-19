@@ -19,7 +19,7 @@ This is a portfolio project designed to deeply learn:
 
 ## Project Structure
 
-```
+```text
 Masroofy/
 ├── src/
 │   ├── Masroofy.Api/        # API endpoints
@@ -28,3 +28,20 @@ Masroofy/
 │   └── Masroofy.Tests/      # Unit & Integration tests
 └── Directory.Build.props     # Shared build settings
 ```
+
+## Domain Model
+
+Currently, the primary domain models defined are:
+
+- **Expense**: Tracks user expenditures with properties such as:
+  - `Title`, `Amount`, `Date`, `Category`, `Notes`
+
+## Current Progress
+
+- ✅ Project structure established
+- ✅ Core project set up
+- ✅ `Expense` entity created
+- ✅ Entity Framework Core & SQL Server packages installed
+- 🔲 Database context and migrations setup
+- 🔲 Minimal API endpoints
+- 🔲 Identity & JWT Authentication
