@@ -8,4 +8,6 @@ public class Expense
     public DateTime Date { get; set; } // When the expense happened
     public string Category { get; set; } = string.Empty; // e.g., "Food", "Transport"
     public string? Notes { get; set; } // Optional - the ? means it can be null
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 }
