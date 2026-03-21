@@ -11,7 +11,7 @@
 
 ---
 
-## Phase 0: Repository Setup & Solution Scaffold
+## Phase 0: Repository Setup & Solution Scaffold ✅
 
 > **Paste this to Claude:**
 > "We're working on Masroofy project, Phase 0: Repository Setup & Solution Scaffold.
@@ -133,7 +133,7 @@ Masroofy/
 
 ---
 
-## Phase 1: Data Layer (Entity + DbContext + Migration)
+## Phase 1: Data Layer (Entity + DbContext + Migration) ✅
 
 > **Paste this to Claude:**
 > "We're working on Masroofy project, Phase 1: Data Layer.
@@ -292,13 +292,13 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
 
 ### Data Annotations to learn deeply
 
-| Annotation           | Applied To     | Why                                      |
-|----------------------|----------------|------------------------------------------|
-| [Required]           | Title, Category| Prevent empty required fields            |
-| [StringLength]       | Title, Category, Notes | Control min/max text length      |
-| [Range]              | Amount         | Ensure positive values only              |
-| [DataType]           | Date           | Enforce correct date format              |
-| [RegularExpression]  | Category       | Allow only predefined categories         |
+| Annotation           | Applied To             | Why                                      |
+|----------------------|------------------------|------------------------------------------|
+| [Required]           | Title, Category        | Prevent empty required fields            |
+| [StringLength]       | Title, Category, Notes | Control min/max text length              |
+| [Range]              | Amount                 | Ensure positive values only              |
+| [DataType]           | Date                   | Enforce correct date format              |
+| [RegularExpression]  | Category               | Allow only predefined categories         |
 
 ### Steps
 
